@@ -31,4 +31,4 @@ export default {
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2020 - present Qichao Lan (chaosprint)
+Copyright (c) 2021 - present Qichao Lan (chaosprint)
