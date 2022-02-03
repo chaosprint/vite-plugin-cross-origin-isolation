@@ -1,10 +1,3 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
 const crossOriginIsolation = () => ({
   name: 'configure-server',
 
@@ -18,5 +11,4 @@ const crossOriginIsolation = () => ({
 
 });
 
-var _default = crossOriginIsolation;
-exports.default = _default;
+export default crossOriginIsolation
