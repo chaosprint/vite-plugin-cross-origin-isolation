@@ -2,12 +2,18 @@
 
 A vite plugin for enabling cross-origin-isolation for dev server.
 
-
 ## Why
 
 `Cross origin isolation` is required for `SharedArrayBuffer`.
 
 Using this plugin, in local dev server, functions that rely on SAB can be enabled and tested.
+
+> Edit 2023:
+>
+> The motivation of this plugin was mainly for my project [Glicol: a collaborative music programming language](https://glicol.org)
+>
+> But now there are some "official" ways to do it, see [here](https://github.com/chaosprint/vite-plugin-cross-origin-isolation/issues/3).
+
 
 ## Usage
 
